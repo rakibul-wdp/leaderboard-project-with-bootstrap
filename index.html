@@ -1,23 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leader board project with Bootstrap</title>
-    <!-- font awesome  -->
-    <script src="https://kit.fontawesome.com/4da8de22b2.js" crossorigin="anonymous"></script>
-    <!-- bootstrap  -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-</head>
-<body>
-    
-    
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Leader board project with Bootstrap</title>
+        <!-- font awesome  -->
+        <script src="https://kit.fontawesome.com/4da8de22b2.js" crossorigin="anonymous"></script>
+        <!-- bootstrap  -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    </head>
+    <body style="background-color: #f3f1ff">
+        <header class="container-fluid" style="background-color: #562eff">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img
+                            src="./images/icons/logo.png"
+                            alt=""
+                            width="40.42"
+                            height="51"
+                            class="d-inline-block align-text-top"
+                        />
+                        <span class="ms-2 text-white">Idea</span>
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#"> Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="#"> About </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="#"> Works </a>
+                            </li>
+                            <img class="ms-3" src="./images/icons/profile.png" alt="" width="51" height="51" />
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-    <header></header>
+        <main class="container mt-4" style="background-color: #ffffff">
+            <section class="ms-4 mb-5">
+                <h2 class="pt-4" style="color: #562eff">Top Players</h2>
+                <div class="row g-5 mt-1">
+                    <div class="d-flex align-items-center col-lg-4">
+                        <img src="./images/players/player-1.png" alt="" width="56" height="56" />
+                        <h4 class="ms-3">John Smith</h4>
+                    </div>
+                    <div class="d-flex align-items-center col-lg-4">
+                        <img src="./images/players/player-2.png" alt="" width="56" height="56" />
+                        <h4 class="ms-3">John Smith</h4>
+                    </div>
+                    <div class="d-flex align-items-center col-lg-4">
+                        <img src="./images/players/player-3.png" alt="" width="56" height="56" />
+                        <h4 class="ms-3">John Smith</h4>
+                    </div>
+                    <div class="d-flex align-items-center col-lg-4">
+                        <img src="./images/players/player-4.png" alt="" width="56" height="56" />
+                        <h4 class="ms-3">John Smith</h4>
+                    </div>
+                    <div class="d-flex align-items-center col-lg-4">
+                        <img src="./images/players/player-5.png" alt="" width="56" height="56" />
+                        <h4 class="ms-3">John Smith</h4>
+                    </div>
+                    <div class="d-flex align-items-center col-lg-4">
+                        <img src="./images/players/player-6.png" alt="" width="56" height="56" />
+                        <h4 class="ms-3">John Smith</h4>
+                    </div>
+                </div>
+            </section>
+            <hr />
+            <section class="ms-4 pb-5">
+                <h2 class="pt-4" style="color: #562eff">Top Blogs</h2>
+                <div class="mt-2 row g-5">
+                    <div class="d-flex col-lg-6">
+                        <img src="./images/blogs/blog-1.png" alt="" width="177" height="117" />
+                        <div class="ms-3">
+                            <h4 class="w-75">13 of My Favorite UI/UX Goodies</h4>
+                            <p>By <a class="text-info text-decoration-none" href="#">Danny Sapio</a></p>
+                        </div>
+                    </div>
+                    <div class="d-flex col-lg-6">
+                        <img src="./images/blogs/blog-2.png" alt="" width="177" height="117" />
+                        <div class="ms-3">
+                            <h4 class="w-75">13 of My Favorite UI/UX Goodies</h4>
+                            <p>By <a class="text-info text-decoration-none" href="#">Danny Sapio</a></p>
+                        </div>
+                    </div>
+                    <div class="d-flex col-lg-6">
+                        <img src="./images/blogs/blog-3.png" alt="" width="177" height="117" />
+                        <div class="ms-3">
+                            <h4 class="w-75">13 of My Favorite UI/UX Goodies</h4>
+                            <p>By <a class="text-info text-decoration-none" href="#">Danny Sapio</a></p>
+                        </div>
+                    </div>
+                    <div class="d-flex col-lg-6">
+                        <img src="./images/blogs/blog-4.png" alt="" width="177" height="117" />
+                        <div class="ms-3">
+                            <h4 class="w-75">13 of My Favorite UI/UX Goodies</h4>
+                            <p>By <a class="text-info text-decoration-none" href="#">Danny Sapio</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
+        <footer class="container mt-3" style="background-color: #ffffff">
+            <div class="ms-4">
+                <h2 class="pt-4" style="color: #562eff">Lates Course</h2>
+                <div class="row">
+                    <div class="card rounded-3 mt-5 col-lg-4" style="width: 18rem">
+                        <img src="./images/courses/course-1.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">React - The Complete Guide 2022</h5>
+                            <p class="card-text text-info">Walter Scott</p>
+                            <div class="d-flex justify-content-between">
+                                <ul class="d-flex list-unstyled">
+                                    <li><i class="fas fa-star text-warning"></i></li>
+                                    <li><i class="fas fa-star text-warning"></i></li>
+                                    <li><i class="fas fa-star text-warning"></i></li>
+                                    <li><i class="fas fa-star text-warning"></i></li>
+                                    <li><i class="fas fa-star-half-alt text-warning"></i></li>
+                                    <li><p class="ms-1">4.5</p></li>
+                                </ul>
+                                <p class="text-danger rounded-pill p-1" style="background-color: #ffe4e8">
+                                    <i class="far fa-clock"></i> 01:30hr
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-3 mt-5 col-lg-4" style="width: 18rem">
+                        <img src="./images/courses/course-2.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">React - The Complete Guide 2022</h5>
+                            <p class="card-text text-info">Walter Scott</p>
+                            <div class="d-flex justify-content-between">
+                                <ul class="d-flex list-unstyled">
+                                    <li><i class="fas fa-star text-warning"></i></li>
+                                    <li><i class="fas fa-star text-warning"></i></li>
+                                    <li><i class="fas fa-star text-warning"></i></li>
+                                    <li><i class="fas fa-star text-warning"></i></li>
+                                    <li><i class="fas fa-star-half-alt text-warning"></i></li>
+                                    <li><p class="ms-1">4.5</p></li>
+                                </ul>
+                                <p class="text-danger rounded-pill p-1" style="background-color: #ffe4e8">
+                                    <i class="far fa-clock"></i> 01:30hr
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-3 mt-5 col-lg-4" style="width: 18rem">
+                        <img src="./images/courses/course-3.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">React - The Complete Guide 2022</h5>
+                            <p class="card-text text-info">Walter Scott</p>
+                            <div class="d-flex justify-content-between">
+                                <ul class="d-flex list-unstyled">
+                                    <li><i class="fas fa-star text-warning"></i></li>
+                                    <li><i class="fas fa-star text-warning"></i></li>
+                                    <li><i class="fas fa-star text-warning"></i></li>
+                                    <li><i class="fas fa-star text-warning"></i></li>
+                                    <li><i class="fas fa-star-half-alt text-warning"></i></li>
+                                    <li><p class="ms-1">4.5</p></li>
+                                </ul>
+                                <p class="text-danger rounded-pill p-1" style="background-color: #ffe4e8">
+                                    <i class="far fa-clock"></i> 01:30hr
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-
-    <script src="./js/bootstrap.bundle.min.js"></script>
-</body>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
